@@ -84,32 +84,26 @@ button{
     }
 }
 
-@media screen and (max-width: 720px) {
-    body{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+@media screen and (max-width: 300px) {
     .calculator {
-        width: 60%;
-        padding: 5px;
+        width: 90%;
+        padding: 15px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 0 auto;
     }
+
     input {
         max-width: 100%;
         font-size: 1.5rem;
         padding: 15px;
     }
-    button {
-        width: 60px;
-        height: 60px;
-        font-size: 12px;
-        margin: 6px;
-    }
-   
 
+    button {
+        width: 50px;
+        height: 50px;
+        font-size: 14px;
+        margin: 8px;
+    }
 }
