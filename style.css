@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", serif;
-    -webkit-tap-highlight-color: transparent;
+   
 }
 body{
     width: 100%;
@@ -72,6 +72,10 @@ button{
     box-shadow: 0 3px 15px rgba(113, 115 , 119, 0.9) ;
     
 }
+button:focus {
+  outline: none;
+}
+
 .equalsign{
     background:#fb7c14;
 }
