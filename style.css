@@ -69,6 +69,7 @@ button{
     font-weight: 600;
     cursor: pointer;
     box-shadow: 0 3px 15px rgba(113, 115 , 119, 0.9) ;
+    user-select: none;
 }
 .equalsign{
     background:#fb7c14;
